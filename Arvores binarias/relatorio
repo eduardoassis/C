@@ -1,0 +1,10 @@
+1. Inserção, remoção e pesquisa são O(log N), já que as árvores AVL
+são sempre balanceadas na altura.
+2. O balanceamento da altura adiciona apenas um fator constante à
+velocidade da inserção.
+Desvantagens
+1. Difícil de programar e depurar; mais espaço parao fator de
+balanceamento
+2. Assintoticamente melhor, mas o balanceamento tem um custo.
+3. Buscas em bases de dados maiores utilizam outras estruturas
+como Árvores B ou B+.
